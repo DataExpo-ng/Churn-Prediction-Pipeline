@@ -97,7 +97,6 @@ def predict_churn(customer: CustomerData):
     print("customer df: ", customer_df)
 
     # define the feature columns and convert to what model expects accordingly to the pydantic model
-
     feature_columns = ['tenure', 'MonthlyCharges', 'TotalCharges']
 
 
